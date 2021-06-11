@@ -34,7 +34,7 @@ function FetchData() {
         <div className="container">
             <div className="images">
                 {items.map((item) => (
-                    <Link to={`/PhotoPage/${item.id}`}>
+                    <Link key={item.id} to={`/PhotoPage/${item.id}`}>
                         <img
                             className="image"
                             loading="lazy"
