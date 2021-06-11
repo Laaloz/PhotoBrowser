@@ -21,7 +21,7 @@ Clicking a thumbnail will navigate to details page, showing full specs of image
 ## Links
 
 ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](https://github.com/Laaloz)
+Format: ![Alt Text](url)
 
 ## Contributors
 
