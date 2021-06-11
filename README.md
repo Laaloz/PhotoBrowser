@@ -8,7 +8,7 @@ This app was created for the geniem  **pre-work**. Task was to fetch [photos](ht
 
 * The application was made with [React](https://reactjs.org/)
 * The application runs on the latest Chrome version
-* The source code must be made available somehow
+* View source code [here](view-source:https://www.youtube.com/watch?v=AfuL6AFpFmQ)
 
 ### Grid view
 
