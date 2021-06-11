@@ -20,8 +20,8 @@ Clicking a thumbnail will navigate to details page, showing full specs of image
 
 ## Links
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](https://github.com/Laaloz)
 
 ## Contributors
 
