@@ -20,7 +20,7 @@ function PhotoPage({ match }) {
         setItem(item);
         console.log(item);
 
-        const itemToString = JSON.parse(fetchItem);
+        const itemToString = JSON.stringify(fetchItem);
         console.log(itemToString);
     };
 

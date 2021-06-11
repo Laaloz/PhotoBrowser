@@ -28,7 +28,7 @@ function FetchData() {
         console.log(items);
         setItems(items);
 
-        const itemToString = JSON.parse(fetchItems);
+        const itemToString = JSON.stringify(fetchItems);
         console.log(itemToString);
     };
 
@@ -36,6 +36,7 @@ function FetchData() {
     //using Link to select page --->
     return (
         <div className="container">
+            <h1>Photobrowser</h1>
             <div className="images">
                 {items.map((item) => (
                     <Link key={item.id} to={`/PhotoPage/${item.id}`}>
