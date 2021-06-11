@@ -22,7 +22,7 @@ Clicking a thumbnail will navigate to details page, showing full specs of image
 platform | manager | command to run
 ---------|---------|---------------
 macOS | [Yarn](https://yarnpkg.com/cli/install) | `yarn install`
-macOS | [Homebrew](https://docs.brew.sh/Installation) | `brew install hub`
+macOS | [Homebrew](https://brew.sh/) | `brew install hub`
 macOS | [React-roouter-dom](https://reactrouter.com/web/guides/quick-start) | `yarn add react-router-dom`
 
 ## Contributors
