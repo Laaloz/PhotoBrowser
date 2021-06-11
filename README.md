@@ -31,5 +31,7 @@ Format: ![Alt Text](url)
 
 © Laalo Ceesay
 
+## Contact
+<img src="https://user-images.githubusercontent.com/77687900/121706871-b3060a00-cade-11eb-885b-748d387c3910.png" width="100">
 ![5a3a218028bee4 08902542151375910416693143](https://user-images.githubusercontent.com/77687900/121706871-b3060a00-cade-11eb-885b-748d387c3910.png)
 
