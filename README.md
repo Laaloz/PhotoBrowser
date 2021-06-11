@@ -26,6 +26,3 @@ Clicking a thumbnail will navigate to details page, showing full specs of image
 
 © Laalo Ceesay
 
-## Contact
-<img src="https://www.laaloceesay.com/" width="50">
-
