@@ -4,7 +4,7 @@
 
 This app was created for the geniem  **pre-work**. Task was to fetch [photos](http://jsonplaceholder.typicode.com/photos) from [{JSON} Placeholder API](http://jsonplaceholder.typicode.com)
 
-## Tools
+## Features
 
 * The application was made with [React](https://reactjs.org/)
 * The application runs on the latest Chrome version
