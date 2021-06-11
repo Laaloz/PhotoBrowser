@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
@@ -26,6 +27,9 @@ function FetchData() {
         const items = await data.json();
         console.log(items);
         setItems(items);
+
+        const itemToString = JSON.stringify(fetchItems);
+        console.log(itemToString);
     };
 
     //Using map to handle each items --->
