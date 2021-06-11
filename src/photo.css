@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+button {
+    padding: 1rem;
+    color: black;
+    border-radius: 8px;
+    border-style: hidden;
+    background-color: lightblue;
+    font-size: 1em;
+}
+
+button:hover {
+    opacity: 85%;
+}
