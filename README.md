@@ -25,7 +25,7 @@ platform | manager | command to run
 ---------|---------|---------------
 macOS | [Yarn](https://yarnpkg.com/cli/install) | `yarn install`
 macOS | [Homebrew](https://brew.sh/) | `brew install wget`
-macOS | [React-roouter-dom](https://reactrouter.com/web/guides/quick-start) | `yarn add react-router-dom`
+macOS | [React-router-dom](https://reactrouter.com/web/guides/quick-start) | `yarn add react-router-dom`
 
 ## Contributors
 
