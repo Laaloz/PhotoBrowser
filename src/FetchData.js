@@ -12,6 +12,7 @@ function FetchData() {
 
     //fetch items from api/json file "http://jsonplaceholder.typicode.com/photos"
     //send error if bad http status
+    //usin ?albumId=1 to get data only from album 1 from http://jsonplaceholder.typicode.com/photos
     const fetchItems = async () => {
         const data = await fetch(
             "http://jsonplaceholder.typicode.com/photos?albumId=1"
@@ -35,11 +36,10 @@ function FetchData() {
                 {items.map((item) => (
                     <Link to={`/PhotoPage/${item.id}`}>
                         <img
-                            key={item.thumbnailUrl}
                             className="image"
+                            loading="lazy"
                             src={item.thumbnailUrl}
                             alt={item.title}
-                            loading="lazy"
                         />
                     </Link>
                 ))}

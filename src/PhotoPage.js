@@ -28,9 +28,9 @@ function PhotoPage({ match }) {
             <div className="pageItems">
                 <img
                     className="image"
+                    loading="lazy"
                     src={item.url}
                     alt={item.title}
-                    loading="lazy"
                 />
                 <h1>{item.title}</h1>
             </div>
