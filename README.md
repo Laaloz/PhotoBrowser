@@ -1,4 +1,4 @@
-**code in master branch**
+**you can find code in master branch**
 
 # PhotoBrowser
 
