@@ -18,6 +18,11 @@ I used CSS [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to
 
 Clicking a thumbnail will navigate to details page, showing full specs of image
 
+## Links
+
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 ## Contributors
 
 - Laalo Ceesay <laaloceesay@gmail.com>
