@@ -1,4 +1,4 @@
-**you can find code in master branch**
+**you can find code in master [branch](https://github.com/Laaloz/PhotoBrowser/tree/master)**
 
 # PhotoBrowser
 
