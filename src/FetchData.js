@@ -13,7 +13,9 @@ function FetchData() {
     //fetch items from api/json file "http://jsonplaceholder.typicode.com/photos"
     //send error if bad http status
     const fetchItems = async () => {
-        const data = await fetch("http://jsonplaceholder.typicode.com/photos");
+        const data = await fetch(
+            "http://jsonplaceholder.typicode.com/photos?albumId=1"
+        );
 
         if (!data.ok) {
             const message = `Something went wrong: ${data.status}`;
