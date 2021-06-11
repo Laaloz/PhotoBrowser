@@ -18,11 +18,6 @@ I used CSS [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to
 
 Clicking a thumbnail will navigate to details page, showing full specs of image
 
-## Links
-
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
 ## Contributors
 
 - Laalo Ceesay <laaloceesay@gmail.com>
@@ -32,6 +27,7 @@ Format: ![Alt Text](url)
 © Laalo Ceesay
 
 ## Contact
-<img src="https://user-images.githubusercontent.com/77687900/121706871-b3060a00-cade-11eb-885b-748d387c3910.png" width="100">
+<img src="https://user-images.githubusercontent.com/77687900/121706871-b3060a00-cade-11eb-885b-748d387c3910.png" width="50">
+
 ![5a3a218028bee4 08902542151375910416693143](https://user-images.githubusercontent.com/77687900/121706871-b3060a00-cade-11eb-885b-748d387c3910.png)
 
