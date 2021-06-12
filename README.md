@@ -10,6 +10,7 @@ This app was created for the geniem  **pre-work**. Task was to fetch [photos](ht
 
 * The application was made with [React](https://reactjs.org/)
 * The application runs on the latest Chrome version
+* [Source](http://jsonplaceholder.typicode.com/photos?albumId=1)
 
 ### Grid view
 
