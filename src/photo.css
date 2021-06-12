@@ -24,5 +24,6 @@ button {
 }
 
 button:hover {
-    opacity: 85%;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
 }
