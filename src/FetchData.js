@@ -28,7 +28,7 @@ function FetchData() {
         console.log(items);
         setItems(items);
 
-        const itemToString = JSON.stringify(fetchItems);
+        const itemToString = JSON.stringify(data);
         console.log(itemToString);
     };
 

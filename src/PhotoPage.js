@@ -8,11 +8,11 @@ function PhotoPage({ match }) {
     const [item, setItem] = useState([]);
 
     useEffect(() => {
-        fetchItem();
+        fetchItems();
         console.log(match);
     }, []);
 
-    const fetchItem = async () => {
+    const fetchItems = async () => {
         const fetchItem = await fetch(
             `http://jsonplaceholder.typicode.com/photos/${match.params.id}`
         );
