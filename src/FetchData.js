@@ -16,7 +16,7 @@ function FetchData() {
     //usin ?albumId=1 to get data only from album 1 from http://jsonplaceholder.typicode.com/photos
     const fetchItems = async () => {
         const data = await fetch(
-            "http://jsonplaceholder.typicode.com/photos?albumId=1"
+            "https://jsonplaceholder.typicode.com/photos?albumId=1"
         );
 
         if (!data.ok) {
@@ -36,7 +36,7 @@ function FetchData() {
     //using Link to select page --->
     return (
         <div className="container">
-            <h1>Photobrowser</h1>
+            <h1>Photo Browser</h1>
             <div className="images">
                 {items.map((item) => (
                     <Link key={item.id} to={`/PhotoPage/${item.id}`}>

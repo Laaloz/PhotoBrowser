@@ -14,7 +14,7 @@ function PhotoPage({ match }) {
 
     const fetchItems = async () => {
         const fetchItem = await fetch(
-            `http://jsonplaceholder.typicode.com/photos/${match.params.id}`
+            `https://jsonplaceholder.typicode.com/photos/${match.params.id}`
         );
         const item = await fetchItem.json();
         setItem(item);
@@ -30,13 +30,13 @@ function PhotoPage({ match }) {
                 <button>Back to frontpage</button>
             </Link>
             <div className="pageItems">
+                <h1>{item.title}</h1>
                 <img
                     className="image"
                     loading="lazy"
                     src={item.url}
                     alt={item.title}
                 />
-                <h1>{item.title}</h1>
             </div>
         </div>
     );
